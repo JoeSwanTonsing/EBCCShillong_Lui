@@ -1,30 +1,36 @@
 import React from 'react';
 import {TouchableOpacity, View, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 //Screen
-import HomeScreen from '../screens/HomeScreen';
+import FeedsScreen from '../screens/FeedsScreen';
 
 const Stack = createStackNavigator();
 
-export default function HomeStack({navigation}) {
+export default function FeedsStack({navigation}) {
   return (
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#2A9D8F',
+          backgroundColor: '#00ABE7',
         },
         headerTintColor: '#fff',
         headerTitleStyle: {
           fontWeight: 'bold',
         },
         headerLeft: () => (
-          <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
-            <Text>MENU</Text>
-          </TouchableOpacity>
+          <Icon.Button
+            name="menu"
+            size={30}
+            backgroundColor="#00ABE7"
+            onPress={() => {
+              navigation.toggleDrawer();
+            }}
+          />
         ),
       }}>
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Feeds" component={FeedsScreen} />
     </Stack.Navigator>
   );
 }
