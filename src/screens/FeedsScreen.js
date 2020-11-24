@@ -5,7 +5,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView>
       <ScrollView>
-        <Text>Hello HomeScreen</Text>
+        <Text>Display Latest Uploads from YouTube, Posts from Facebook and Photos from Instagram separately, each in it's own section.</Text>
       </ScrollView>
     </SafeAreaView>
   );
