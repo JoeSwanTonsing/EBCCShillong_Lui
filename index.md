@@ -6,6 +6,10 @@ The Evangelical Baptist Convention Church (EBCC) Shillong brings you an app that
 
 Stay Updated with the church's events and activities.
 
+### Get Involved
+
+Be apart of the conversation and activities with live updates.
+
 ### Open Sourced
 
 Open Sourced means there are a group of developers working on the application software, so you can rest assured that you get the best services always, free of charge.
