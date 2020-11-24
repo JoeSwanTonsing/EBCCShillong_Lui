@@ -50,6 +50,12 @@ export default function DrawerContent(props) {
         <View style={styles.menuContainer}>
           <TouchableOpacity
             style={styles.menuItem}
+            onPress={() => props.navigation.navigate('Home')}>
+            <Icon name="home-outline" size={25} style={styles.itemIcon} />
+            <Text style={styles.itemTitle}>Home</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.menuItem}
             onPress={() => props.navigation.navigate('Feeds')}>
             <Icon name="newspaper-outline" size={25} style={styles.itemIcon} />
             <Text style={styles.itemTitle}>Feeds</Text>
