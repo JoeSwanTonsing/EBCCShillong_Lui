@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## EBCC Shillong Official App
 
-You can use the [editor on GitHub](https://github.com/JoeSwanTonsing/EBCCShillong/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Evangelical Baptist Convention Church (EBCC) Shillong brings you an app that combines all the social media accounts - YouTube, Facebook and Instagram into one app, namely EBCC Shillong. Now users will be able to View/Watch EBCC Shillong's Youtube videos, Facebook posts or Instagram photos all within the without requiring you to have an account in the platforms.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Stay Updated
 
-### Markdown
+Stay Updated with the church's events and activities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Open Sourced
 
-```markdown
-Syntax highlighted code block
+Open Sourced means there are a group of developers working on the application software, so you can rest assured that you get the best services always, free of charge.
 
-# Header 1
-## Header 2
-### Header 3
+## Contributions
 
-- Bulleted
-- List
+**All are welcomed to contribute to the project**
+However there are some rules and application design models that are followed. Please contact Liangousuan Tonsing on contributing.
 
-1. Numbered
-2. List
+### Ways you can contribute
 
-**Bold** and _Italic_ and `Code` text
+**Developer**
+Java, JS & JSX Devs, Full Stack Dev, Backend Dev, UiUx Designer
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JoeSwanTonsing/EBCCShillong/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Content Creator**
+Someone who can write articles, make videos or media production, etc.
