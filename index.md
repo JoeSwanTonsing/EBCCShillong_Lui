@@ -1,3 +1,5 @@
+<img src="assets/ghp_poster.jpg">
+
 ## EBCC Shillong Official App
 
 The Evangelical Baptist Convention Church (EBCC) Shillong brings you an app that combines all the social media accounts - YouTube, Facebook and Instagram into one app, namely EBCC Shillong. Now users will be able to View/Watch EBCC Shillong's Youtube videos, Facebook posts or Instagram photos all within the without requiring you to have an account in the platforms.
@@ -21,8 +23,8 @@ However there are some rules and application design models that are followed. Pl
 
 ### Ways you can contribute
 
-**Developer**
+**Developers:**
 Java, JS & JSX Devs, Full Stack Dev, Backend Dev, UiUx Designer
 
-**Content Creator**
+**Content Creators:**
 Someone who can write articles, make videos or media production, etc.
