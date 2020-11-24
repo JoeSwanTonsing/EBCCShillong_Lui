@@ -3,7 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 //Screen
-import FeedsScreen from '../screens/FeedsScreen';
+import FeedsScreen from '../screens/feeds/FeedsScreen';
 
 const Stack = createStackNavigator();
 
