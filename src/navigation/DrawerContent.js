@@ -47,7 +47,7 @@ export default function DrawerContent(props) {
             <Text style={styles.headerTitleText}>EBCC Shillong</Text>
           </View>
         </View>
-        <View style={styles.menuContainer}>
+        <View style={[styles.menuContainer, styles.separatorLight]}>
           <TouchableOpacity
             style={styles.menuItem}
             onPress={() => props.navigation.navigate('Home')}>
@@ -59,6 +59,20 @@ export default function DrawerContent(props) {
             onPress={() => props.navigation.navigate('Feeds')}>
             <Icon name="newspaper-outline" size={25} style={styles.itemIcon} />
             <Text style={styles.itemTitle}>Feeds</Text>
+          </TouchableOpacity>
+        </View>
+        <View style={[styles.menuContainer, styles.separatorLight]}>
+          <TouchableOpacity
+            style={styles.menuItem}
+            onPress={() => props.navigation.navigate('Videos')}>
+            <Icon name="videocam-outline" size={25} style={styles.itemIcon} />
+            <Text style={styles.itemTitle}>Video Te</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.menuItem}
+            onPress={() => props.navigation.navigate('Photos')}>
+            <Icon name="image-outline" size={25} style={styles.itemIcon} />
+            <Text style={styles.itemTitle}>Lemlak Te</Text>
           </TouchableOpacity>
           {/*<TouchableOpacity
             style={styles.menuItem}
@@ -111,6 +125,9 @@ export default function DrawerContent(props) {
           </TouchableOpacity>*/}
         </View>
       </DrawerContentScrollView>
+      <View style={styles.footer}>
+        <Text>Version 1.0.1</Text>
+      </View>
     </SafeAreaView>
   );
 }
@@ -126,7 +143,6 @@ const styles = {
     paddingBottom: 15,
     alignItems: 'center',
     justifyContent: 'center',
-    // flexDirection: 'row',
   },
   headerImage: {
     height: 100,
@@ -166,5 +182,15 @@ const styles = {
     marginTop: 10,
     marginBottom: 10,
   },
+  separatorLight: {
+    borderBottomColor: '#ececec',
+    borderBottomWidth: 1,
+    marginTop: 10,
+    marginBottom: 10,
+  },
   //272f3f
+  footer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 };
