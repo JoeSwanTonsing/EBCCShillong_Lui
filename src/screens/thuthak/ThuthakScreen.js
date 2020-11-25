@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, View, ScrollView, Text} from 'react-native';
 
-export default function HomeScreen() {
+export default function ThuthakScreen() {
   return (
     <SafeAreaView style={{flex: 1}}>
       <ScrollView>

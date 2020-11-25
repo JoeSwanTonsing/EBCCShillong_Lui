@@ -6,7 +6,7 @@ import {NavigationContainer} from '@react-navigation/native';
 
 //my components & nav_stacks
 import DrawerContent from './src/navigation/DrawerContent';
-import FeedsStack from './src/navigation/FeedsStack';
+import ThuthakStack from './src/navigation/ThuthakStack';
 import HomeStack from './src/navigation/HomeStack';
 import VideosStack from './src/navigation/VideosStack';
 import PhotosStack from './src/navigation/PhotosStack';
@@ -20,9 +20,9 @@ export default function App() {
       <SafeAreaProvider>
         <NavigationContainer>
           <Drawer.Navigator
-            initialRouteName="Feeds"
+            initialRouteName="Thuthak"
             drawerContent={(props) => <DrawerContent {...props} />}>
-            <Drawer.Screen name="Feeds" component={FeedsStack} />
+            <Drawer.Screen name="Thuthak" component={ThuthakStack} />
             <Drawer.Screen name="Home" component={HomeStack} />
             <Drawer.Screen name="Videos" component={VideosStack} />
             <Drawer.Screen name="Photos" component={PhotosStack} />

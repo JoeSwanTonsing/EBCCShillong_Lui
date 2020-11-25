@@ -56,12 +56,18 @@ export default function DrawerContent(props) {
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.menuItem}
-            onPress={() => props.navigation.navigate('Feeds')}>
+            onPress={() => props.navigation.navigate('Thuthak')}>
             <Icon name="newspaper-outline" size={25} style={styles.itemIcon} />
-            <Text style={styles.itemTitle}>Feeds</Text>
+            <Text style={styles.itemTitle}>Thu Thak</Text>
           </TouchableOpacity>
         </View>
         <View style={[styles.menuContainer, styles.separatorLight]}>
+          <TouchableOpacity
+            style={styles.menuItem}
+            onPress={() => props.navigation.navigate('Videos')}>
+            <Icon name="reader-outline" size={25} style={styles.itemIcon} />
+            <Text style={styles.itemTitle}>Laigelh Te</Text>
+          </TouchableOpacity>
           <TouchableOpacity
             style={styles.menuItem}
             onPress={() => props.navigation.navigate('Videos')}>
@@ -145,8 +151,8 @@ const styles = {
     justifyContent: 'center',
   },
   headerImage: {
-    height: 100,
-    width: 100,
+    height: 65,
+    width: 65,
     resizeMode: 'cover',
   },
   headerTitles: {
@@ -157,7 +163,7 @@ const styles = {
     color: '#002855',
     fontWeight: 'bold',
     flexWrap: 'wrap',
-    fontSize: 20,
+    fontSize: 16,
     lineHeight: 30,
   },
   menuContainer: {

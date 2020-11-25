@@ -3,11 +3,11 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 //Screen
-import FeedsScreen from '../screens/feeds/FeedsScreen';
+import ThuthakScreen from '../screens/thuthak/ThuthakScreen';
 
 const Stack = createStackNavigator();
 
-export default function FeedsStack({navigation}) {
+export default function ThuthakStack({navigation}) {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -29,7 +29,11 @@ export default function FeedsStack({navigation}) {
           />
         ),
       }}>
-      <Stack.Screen name="Feeds" component={FeedsScreen} />
+      <Stack.Screen
+        name="Thuthak"
+        component={ThuthakScreen}
+        options={{title: 'Thu Thak'}}
+      />
     </Stack.Navigator>
   );
 }
