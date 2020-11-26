@@ -132,7 +132,8 @@ export default function DrawerContent(props) {
         </View>
       </DrawerContentScrollView>
       <View style={styles.footer}>
-        <Text>Version 1.0.1</Text>
+        <Icon name="build-outline" size={15} color="#8c8c8c" />
+        <Text style={styles.footerText}>Version 1.0.1</Text>
       </View>
     </SafeAreaView>
   );
@@ -198,5 +199,11 @@ const styles = {
   footer: {
     justifyContent: 'center',
     alignItems: 'center',
+    marginVertical: 10,
+    flexDirection: 'row',
+  },
+  footerText: {
+    color: '#8c8c8c',
+    marginLeft: 10,
   },
 };
