@@ -12,13 +12,12 @@ const Spinner = ({size, color, spinnerText}) => {
 
 const styles = {
   spinnerStyle: {
-    flex: 1,
-    justifyItems: 'center',
-    alignItems: 'center',
+    marginVertical: 15,
   },
   spinnerText: {
     marginTop: 10,
-    color: '#53599A',
+    color: '#264653',
+    fontSize: 18,
   },
 };
 
