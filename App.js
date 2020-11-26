@@ -16,7 +16,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="light-content" backgroundColor="#0092c7" />
       <SafeAreaProvider>
         <NavigationContainer>
           <Drawer.Navigator
