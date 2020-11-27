@@ -10,13 +10,14 @@ import ThuthakStack from './src/navigation/ThuthakStack';
 import HomeStack from './src/navigation/HomeStack';
 import VideosStack from './src/navigation/VideosStack';
 import PhotosStack from './src/navigation/PhotosStack';
+import LaigelhStack from './src/navigation/LaigelhStack';
 
 const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#0092c7" />
+      <StatusBar barStyle="light-content" backgroundColor="#06355c" />
       <SafeAreaProvider>
         <NavigationContainer>
           <Drawer.Navigator
@@ -26,6 +27,7 @@ export default function App() {
             <Drawer.Screen name="Home" component={HomeStack} />
             <Drawer.Screen name="Videos" component={VideosStack} />
             <Drawer.Screen name="Photos" component={PhotosStack} />
+            <Drawer.Screen name="Laigelh" component={LaigelhStack} />
           </Drawer.Navigator>
         </NavigationContainer>
       </SafeAreaProvider>
