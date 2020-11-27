@@ -7,12 +7,14 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+//My components
+import LaigelhCard from '../../components/cards/LaigelhCard';
+
 export default function LaigelhScreen() {
   return (
     <SafeAreaView style={{flex: 1}}>
       <ScrollView>
-        <Text>Hello Laigelh Screen</Text>
-        <Text>Show Latest Articles in this Chronological order</Text>
+        <LaigelhCard />
       </ScrollView>
     </SafeAreaView>
   );
