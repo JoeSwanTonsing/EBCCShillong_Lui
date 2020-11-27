@@ -11,7 +11,7 @@ import {
 
 //My Components
 import Spinner from '../../components/Spinner';
-import Card from '../../components/cards/Card';
+import Card from '../../components/cards/VideoCard';
 
 export default function VideosScreen({navigation}) {
   const [isLoading, setIsLoading] = useState(false);
