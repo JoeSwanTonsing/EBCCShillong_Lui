@@ -25,7 +25,6 @@ export default function VideosScreen({navigation}) {
       .then((res) => res.json())
       .then((data) => {
         setIsLoading(false);
-        console.log(data.items);
         setMiniCard(data.items);
       })
       .catch((err) => {
