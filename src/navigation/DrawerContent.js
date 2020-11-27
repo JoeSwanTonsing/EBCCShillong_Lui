@@ -64,7 +64,7 @@ export default function DrawerContent(props) {
         <View style={[styles.menuContainer, styles.separatorLight]}>
           <TouchableOpacity
             style={styles.menuItem}
-            onPress={() => props.navigation.navigate('Videos')}>
+            onPress={() => props.navigation.navigate('Laigelh')}>
             <Icon name="reader-outline" size={25} style={styles.itemIcon} />
             <Text style={styles.itemTitle}>Laigelh Te</Text>
           </TouchableOpacity>
