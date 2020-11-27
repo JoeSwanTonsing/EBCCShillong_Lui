@@ -12,7 +12,7 @@ export default function PhotosStack({navigation}) {
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: '#00ABE7',
+          backgroundColor: '#084B83',
         },
         headerTintColor: '#fff',
         headerTitleStyle: {
@@ -22,7 +22,7 @@ export default function PhotosStack({navigation}) {
           <Icon.Button
             name="menu"
             size={30}
-            backgroundColor="#00ABE7"
+            backgroundColor="#084B83"
             onPress={() => {
               navigation.toggleDrawer();
             }}
